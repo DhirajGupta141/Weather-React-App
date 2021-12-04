@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* */
+    background: linear-gradient( red,orange,yellow,green,blue,indigo,violet);
+}
+
+/* .center-div::before{
+    content: '';
+    background: url(./background2.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 44%;
+    z-index: 1;
+    left: 32%;
+    top: 10%;
+} */
+.center-div{
+    width: 39%;
+    height: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   /* background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 1)); */
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+    z-index: 10;
+}
+
+
+.center-div > h2{
+    background: honeydew;
+    font-size: 1.5rem;
+    margin-bottom: 1rem ;
+    width: 100%;
+    text-align: center;
+    border-radius: inherit;
+}
+.center-div input{
+    user-select: auto;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.center-div .search-place{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background: cornsilk;
+    border-radius: inherit;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 150px 150px 0 0;
+
+}
+
+.center-div .search-place .fa-street-view{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.center-div h3{
+    color: whitesmoke;
+}
+.answer{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
